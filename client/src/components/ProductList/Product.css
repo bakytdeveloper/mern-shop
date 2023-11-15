@@ -1,0 +1,18 @@
+/* client/src/components/ProductList/Product.css */
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-price {
+    margin-top: 5px;
+    color: #4caf50;
+}

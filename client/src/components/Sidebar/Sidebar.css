@@ -1,0 +1,39 @@
+/* src/components/Sidebar/Sidebar.css */
+.sidebar {
+    width: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+
+    position: fixed;
+    top: 75px; /* Вы можете настроить этот отступ в зависимости от высоты вашего Header */
+    /*bottom: 0;*/
+    overflow-y: auto; /* Добавьте вертикальный скролл, если содержимое Sidebar слишком длинное */
+    z-index: 100; /* Задайте любое значение z-index, чтобы управлять порядком слоев */
+
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #ffcc00;
+}

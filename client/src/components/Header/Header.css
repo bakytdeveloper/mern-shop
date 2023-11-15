@@ -1,0 +1,52 @@
+/* client/src/styles/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: #333;
+    padding: 0 20px;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Установите любое значение z-index, чтобы управлять порядком слоев */
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 190px;
+}
+.search-bar input {
+    width: 200px;
+}
+.search-bar input {
+    width: 100%;
+    padding: 5px;
+}
+
+.social-icons img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.login button {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buy button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}

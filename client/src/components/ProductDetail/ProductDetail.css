@@ -1,0 +1,48 @@
+/* client/src/components/ProductDetail/ProductDetail.css */
+.product-detail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+}
+
+.product-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-detail-header h2 {
+    margin: 0;
+}
+
+.product-detail-content {
+    display: flex;
+}
+
+.product-detail-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-detail-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-detail-info {
+    flex: 2;
+}
+
+.product-detail-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
